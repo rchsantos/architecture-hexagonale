@@ -1,0 +1,16 @@
+[project]
+name = "architecture-hexagonale"
+version = "0.1.0"
+description = "Implementation pédagogique et professionnelle d’une architecture hexagonale en Python, avec intégration progressive de FastAPI et Django. Le projet accompagne une série d’articles Medium (Members Only) et démontre comment structurer un domaine métier pur, utiliser des ports & adaptateurs, et isoler totalement les frameworks et l’infrastructure."
+authors = [
+    {name = "Richardson",email = "rpsantosvix@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
