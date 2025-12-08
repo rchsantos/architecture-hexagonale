@@ -1,6 +1,6 @@
 from app.application.use_cases import ProductService
 from app.domain.exceptions import ProductNotFound
-from app.infrastructure.adapters.in_memory_product_repository import InMemoryProductRepository
+from app.infrastructure.adapters.in_memory.in_memory_product_repository import InMemoryProductRepository
 
 
 def test_create_and_list_products():

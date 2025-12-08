@@ -15,5 +15,5 @@ class Product(BaseModel):
             raise ValueError("Product name must not be blank")
         return value
 
-    class Config:
+    class ConfigDict:
         frozen = True
